@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./highscores.html" />
+    <link href="./landing_page.html" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Owen Wilson Game</title>
+  </head>
+
+  <!-- body  -->
+  <body>
+
+    <!-- header  -->
+    <header class="header">
+      <nav>
+        <h1>Owen Wilson Game</h1>
+        <a href="./index.html">Home</a>
+        <a href="./games.html">Wilson Game</a>
+        <!-- <a href="./highscores.html">High Scores</a> -->
+      </nav>
+    </header>
+    <section>
+      <div id="box"></div>
+        <div>
+          <button id="playBtn" type="submit" class="startBtn">Play!</button>
+        </div>
+    </section>
+
+      <!--questions Area-->
+      <section id="movie-title" class="hidden">
+        <h2 id = "movieTitle"></h2>
+        <input type = "text" placeholder="player 1...guess" id="player-1" ></input>
+        <button id = "submit">Submit</button>
+        <!-- <input type = "text" placeholder="Player 2" id="player-2"></input> -->
+        <div id="movie-poster"></div>
+        <div id="answer"></div>
+      </section>
+     
+      <progress class="progress is-info" value="" max="30">100%</progress>
+       <!--running score-->
+    <div id="running-score" class="hidden">
+      
+      <div id="scoreDisplay"></div>
+
+  <!-- Footer  -->
+  <footer class="footer">
+    <h4>Made with 🖤 by Drew & Jess</h4>
+    <p>&copy; Us.</p>
+  </footer>
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>
